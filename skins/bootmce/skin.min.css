@@ -397,7 +397,6 @@ div.mce-fullscreen {
     -webkit-box-shadow: 0 6px 24px rgba(30, 30, 30, 0.15);
     -moz-box-shadow: 0 6px 24px rgba(30, 30, 30, 0.15);
     box-shadow: 0 6px 24px rgba(30, 30, 30, 0.15);
-    /*filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
     background: #fff;
     background-clip: padding-box;
     border-color: rgba(0,0,0,.15);
@@ -408,6 +407,7 @@ div.mce-fullscreen {
     -webkit-transition: opacity 150ms ease-in;
     transition: opacity 150ms ease-in;
     overflow: hidden;
+    padding-bottom: 12px;
 }
 
     .mce-window.mce-in {
@@ -415,16 +415,15 @@ div.mce-fullscreen {
     }
 
 .mce-window-head {
-    padding: 15px;
     border-bottom: 1px solid #e5e5e5;
     position: relative;
-    /*background: #f0f0f0;*/
+    padding: 15px;
 }
 
     .mce-window-head .mce-close {
         position: absolute;
         right: 15px;
-        top: 12px;
+        top: 16px;
         font-size: 20px;
         font-weight: bold;
         line-height: 20px;
@@ -439,7 +438,7 @@ div.mce-fullscreen {
 }
 
 .mce-window-head .mce-title {
-    line-height: 20px;
+    line-height: 25px;
     font-size: 18px;
     text-rendering: optimizelegibility;
     padding-right: 10px;
@@ -460,7 +459,7 @@ div.mce-fullscreen {
 
     .mce-foot .mce-container-body {
         text-align: right;
-        padding: 10px 0;
+        padding: 16px 0;
     }
 
     .mce-foot .mce-abs-layout-item.mce-btn {
