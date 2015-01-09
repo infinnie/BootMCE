@@ -8,7 +8,7 @@
     text-decoration: none;
     color: #333;
     font-family: "Segoe UI","Open Sans",Seravek,Arial,sans-serif;
-    /*font-size: 14px;*/
+    font-size: 14px;
     text-shadow: none;
     float: none;
     position: static;
@@ -17,7 +17,7 @@
     white-space: nowrap;
     cursor: inherit;
     -webkit-tap-highlight-color: transparent;
-    line-height: normal;
+    line-height: 1.5;
     font-weight: normal;
     text-align: left;
     -moz-box-sizing: content-box;
@@ -424,10 +424,10 @@ div.mce-fullscreen {
     .mce-window-head .mce-close {
         position: absolute;
         right: 15px;
-        top: 9px;
+        top: 12px;
         font-size: 20px;
         font-weight: bold;
-        /*line-height: 20px;*/
+        line-height: 20px;
         color: #ccc;
         cursor: pointer;
         height: 20px;
@@ -519,10 +519,6 @@ body .mce-abs-layout-item, .mce-abs-end {
     width: 1px;
     height: 1px;
 }
-
-/*.mce-container-body.mce-abs-layout {
-    overflow: hidden;
-}*/
 
 .mce-tooltip {
     position: absolute;
@@ -705,17 +701,9 @@ body .mce-abs-layout-item, .mce-abs-end {
 
     .mce-btn:active {
         background-color: #d6d6d6;
-        background-image: -moz-linear-gradient(top, #e6e6e6, #c0c0c0);
-        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e6e6e6), to(#c0c0c0));
-        background-image: -webkit-linear-gradient(top, #e6e6e6, #c0c0c0);
-        background-image: -o-linear-gradient(top, #e6e6e6, #c0c0c0);
-        background-image: linear-gradient(to bottom, #e6e6e6, #c0c0c0);
-        background-repeat: repeat-x;
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe6e6e6', endColorstr='#ffc0c0c0', GradientType=0);
-        zoom: 1;
-        -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+        -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+        box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
     }
 
     .mce-btn button {
@@ -778,18 +766,11 @@ body .mce-abs-layout-item, .mce-abs-end {
     }
 
     .mce-primary.mce-active, .mce-primary.mce-active:hover, .mce-primary:not(.mce-disabled):active {
-        background-color: #005299;
-        background-image: -moz-linear-gradient(top, #069, #039);
-        background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#069), to(#039));
-        background-image: -webkit-linear-gradient(top, #069, #039);
-        background-image: -o-linear-gradient(top, #069, #039);
-        background-image: linear-gradient(to bottom, #069, #039);
-        background-repeat: repeat-x;
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff006699', endColorstr='#ff003399', GradientType=0);
-        zoom: 1;
-        -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-        -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
-        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+        background-color: #3276b1;
+        -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+        -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+        box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+        border-color: #285e8e;
     }
 
     .mce-primary button, .mce-primary button i {
@@ -1405,11 +1386,9 @@ i.mce-i-checkbox {
     padding: 6px 15px 6px 12px;
     clear: both;
     font-weight: normal;
-    line-height: 20px;
     color: #333;
     white-space: nowrap;
     cursor: pointer;
-    line-height: normal;
     border-left: 4px solid transparent;
     margin-bottom: 1px;
 }
@@ -1500,14 +1479,6 @@ i.mce-i-checkbox {
     text-decoration: none;
     color: #fff;
     background-color: #428bca;
-    /*background-image: -moz-linear-gradient(top, #08c, #0077b3);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08c), to(#0077b3));
-    background-image: -webkit-linear-gradient(top, #08c, #0077b3);
-    background-image: -o-linear-gradient(top, #08c, #0077b3);
-    background-image: linear-gradient(to bottom, #08c, #0077b3);*/
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
-    zoom: 1;
 }
 
 div.mce-menu .mce-menu-item-sep, .mce-menu-item-sep:hover {
@@ -1738,6 +1709,10 @@ i.mce-i-resize {
     .mce-textbox::-ms-clear, .mce-textbox::-ms-reveal {
         margin: 2px;
     }
+
+input.mce-textbox {
+    line-height: 32px;
+}
 
 .mce-placeholder .mce-textbox {
     color: #aaa;
