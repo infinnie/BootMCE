@@ -1,9 +1,10 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #fff;
     color: #333;
     font: 100%/1.6 "Segoe UI",Arial,Helvetica,sans-serif;
     font-feature-settings: "dlig" 1;
-    margin: 1em;
+    margin: .5em;
+    padding: .5em .5em 40px !important; /* Fuck the autoresize */
 }
 
 a {
@@ -20,6 +21,23 @@ p, blockquote, ol, ul {
     margin: 0 0 1em;
 }
 
+ol, ul {
+    padding: 0;
+}
+
+ol {
+    list-style: decimal;
+}
+
+ul {
+    list-style: disc;
+}
+
+li {
+    margin-left: 1.25em;
+    padding-left: 3px;
+}
+
 td, th {
     font-size: 100%;
 }
@@ -27,7 +45,7 @@ td, th {
 blockquote {
     margin-left: 0;
     border-left: 3px solid #ddd;
-    padding-left: 1.2em;
+    padding-left: 1.25em;
     color: #888;
 }
 
@@ -69,7 +87,7 @@ blockquote {
 }
 
 .mce-nbsp {
-    background: #AAA;
+    background: #aaa;
 }
 
 hr {
@@ -77,7 +95,7 @@ hr {
 }
 
 .mce-match-marker {
-    background: #AAA;
+    background: #aaa;
     color: #fff;
 }
 
@@ -87,7 +105,7 @@ hr {
 }
 
 .mce-spellchecker-word {
-    border-bottom: 2px solid #F00;
+    border-bottom: 2px solid #f00;
     cursor: default;
 }
 
@@ -97,7 +115,7 @@ hr {
 }
 
 .mce-item-table, .mce-item-table td, .mce-item-table th, .mce-item-table caption {
-    border: 1px dashed #BBB;
+    border: 1px dashed #bbb;
 }
 
 td.mce-item-selected, th.mce-item-selected {

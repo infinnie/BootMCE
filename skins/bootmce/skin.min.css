@@ -265,8 +265,7 @@ div.mce-tinymce-inline {
 
 .mce-panel {
     border: 0 solid #ccc;
-    /*border-color: rgba(0,0,0,.2);*/
-    background-color: #f3f3f3;
+    background-color: #f5f5f5;
     zoom: 1;
 }
 
@@ -381,8 +380,8 @@ div.mce-fullscreen {
 }
 
     #mce-modal-block.mce-in {
-        opacity: .3;
-        filter: alpha(opacity=30);
+        opacity: .5;
+        filter: alpha(opacity=50);
         zoom: 1;
     }
 
@@ -397,6 +396,7 @@ div.mce-fullscreen {
     -webkit-box-shadow: 0 6px 24px rgba(30, 30, 30, 0.15);
     -moz-box-shadow: 0 6px 24px rgba(30, 30, 30, 0.15);
     box-shadow: 0 6px 24px rgba(30, 30, 30, 0.15);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
     background: #fff;
     background-clip: padding-box;
     border-color: rgba(0,0,0,.15);
@@ -522,7 +522,7 @@ body .mce-abs-layout-item, .mce-abs-end {
 .mce-tooltip {
     position: absolute;
     padding: 5px;
-    opacity: .8;
+    opacity: .9;
     filter: alpha(opacity=80);
     zoom: 1;
 }
@@ -535,7 +535,6 @@ body .mce-abs-layout-item, .mce-abs-end {
     padding: 5px 8px 4px 8px;
     text-align: center;
     white-space: normal;
-    margin-top: -1px;
 }
 
 .mce-tooltip-inner {
@@ -660,7 +659,7 @@ body .mce-abs-layout-item, .mce-abs-end {
     display: inline-block;
     *display: inline;
     *zoom: 1;
-    background-color: #f3f3f3;
+    background-color: #f5f5f5;
     zoom: 1;
     border: 1px solid #ccc;
 }
@@ -691,7 +690,7 @@ body .mce-abs-layout-item, .mce-abs-end {
     }
 
         .mce-btn.mce-active button, .mce-toolbar-grp .mce-btn.mce-active button {
-            border-color: #ddd;
+            border-color: #ccc;
         }
 
         .mce-btn.mce-active .mce-ico {
@@ -724,8 +723,8 @@ body .mce-abs-layout-item, .mce-abs-end {
 
 
 .mce-toolbar-grp .mce-btn, .mce-toolbar-grp .mce-btn:hover {
-    border: 0 solid #f3f3f3;
-    border-width: 0 4px;
+    border: 0;
+    margin: 0 4px;
 }
 
     .mce-toolbar-grp .mce-btn button {
@@ -740,6 +739,9 @@ body .mce-abs-layout-item, .mce-abs-end {
         box-shadow: none;
     }
 
+    .mce-toolbar-grp .mce-btn:hover {
+        border-color: #ebebeb;
+    }
 
 .mce-primary {
     min-width: 60px;
@@ -774,7 +776,6 @@ body .mce-abs-layout-item, .mce-abs-end {
 
     .mce-primary button, .mce-primary button i {
         color: #fff;
-        /*text-shadow: 1px 1px #333;*/
     }
 
 .mce-btn-large button {
@@ -870,8 +871,6 @@ body .mce-abs-layout-item, .mce-abs-end {
     }
 
     .mce-btn-group .mce-btn {
-        /*border-width: 1px 0 1px 0;*/
-        margin: 0;
         -webkit-border-radius: 0;
         -moz-border-radius: 0;
         border-radius: 0;
