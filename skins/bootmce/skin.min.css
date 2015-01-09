@@ -532,9 +532,10 @@ body .mce-abs-layout-item, .mce-abs-end {
     background-color: #000;
     color: #fff;
     max-width: 200px;
-    padding: 5px 8px 4px 8px;
+    padding: 5px 8px;
     text-align: center;
     white-space: normal;
+    margin-top: -1px;
 }
 
 .mce-tooltip-inner {
