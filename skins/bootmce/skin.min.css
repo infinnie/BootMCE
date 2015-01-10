@@ -1299,7 +1299,8 @@ i.mce-i-checkbox {
 }
 
 .mce-menubar {
-    border: 1px solid #c4c4c4;
+    border: 1px solid #ccc;
+    background: #fff;
 }
 
     .mce-menubar .mce-menubtn button span {
@@ -1394,6 +1395,7 @@ i.mce-i-checkbox {
 
     .mce-menu-item .mce-ico, .mce-menu-item .mce-text {
         color: #333;
+        line-height: 1.5;
     }
 
     .mce-menu-item.mce-disabled .mce-text, .mce-menu-item.mce-disabled .mce-ico {
@@ -1401,7 +1403,7 @@ i.mce-i-checkbox {
     }
 
     .mce-menu-item:hover .mce-text, .mce-menu-item.mce-selected .mce-text, .mce-menu-item:focus .mce-text {
-        color: #fff;
+        color: #fff !important;
     }
 
     .mce-menu-item:hover .mce-ico, .mce-menu-item.mce-selected .mce-ico, .mce-menu-item:focus .mce-ico {
@@ -1486,7 +1488,7 @@ div.mce-menu .mce-menu-item-sep, .mce-menu-item-sep:hover {
     height: 1px;
     margin: 9px 1px;
     overflow: hidden;
-    background: #cbcbcb;
+    background: #e5e5e5;
     border-bottom: 1px solid #fff;
     cursor: default;
     filter: none;
@@ -1531,14 +1533,14 @@ div.mce-menu .mce-menu-item-sep, .mce-menu-item-sep:hover {
     min-width: 160px;
     background: #fff;
     border: 1px solid #989898;
-    border: 1px solid rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.15);
     z-index: 1002;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    -moz-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
     max-height: 400px;
     overflow: auto;
     overflow-x: hidden;
